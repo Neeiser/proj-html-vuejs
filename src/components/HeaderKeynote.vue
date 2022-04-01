@@ -3,8 +3,10 @@
         <header>
             <img src="../assets/img/logo.png" alt="">
             <nav>
-                <ul v-for="navItem in navList" :key="navItem">
-                    <li>{{navItem.category.toUpperCase()}}</li>
+                <ul>
+                    <li v-for="navItem in navList" :key="navItem">
+                        {{navItem.category.toUpperCase()}}
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -25,6 +27,20 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    img{
+        height: 20px;
+    }
+    ul{
+        display: flex;
+        font-weight: 500;
+        border-right: 1px solid black;
+    }
+}
 
 </style>
