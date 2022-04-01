@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+    Hello
   </div>
 </template>
 
@@ -9,10 +9,10 @@
 
 export default {
   name: 'App',
-  
+
 }
 </script>
 
 <style lang="scss">
-
+@import './assets/styles/style';
 </style>
