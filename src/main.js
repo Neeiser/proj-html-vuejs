@@ -1,6 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+/* FONTAWESOME ICONS IMPORT */
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+/* FONTAWESOME ICONS LIBRARY FUNCTIONS*/
+library.add(faMagnifyingGlass)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.config.productionTip = false
 
 new Vue({

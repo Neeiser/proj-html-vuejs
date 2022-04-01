@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HeaderKeynote></HeaderKeynote>
+    <HeaderKeynote />
   </div>
 </template>
 
