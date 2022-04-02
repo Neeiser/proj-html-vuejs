@@ -1,3 +1,4 @@
+
 :root{
     font-family: 'Raleway', sans-serif;
 }
@@ -14,4 +15,14 @@
     padding: 20px 30px;
     border: none;
     border-radius: 5px;
+}
+
+.btn-style:hover{
+    filter:drop-shadow(0 0 0.3rem #f72b0c);
+    transition: 0.2s;
+}
+
+.btn-style:active{
+    filter:drop-shadow(0 0 0.3rem #f72b0c) brightness(50%);
+    transition: 0.05s;
 }
