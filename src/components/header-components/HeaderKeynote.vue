@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <header class="margin-sides">
-            <img src="../assets/img/logo.png" alt="">
+            <img src="../../assets/img/logo.png" alt="">
             <nav>
                 <ul>
                     <li v-for="navItem in navList" :key="navItem.id">
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import JumboHeaderKeynote from './header-components/JumboHeaderKeynote.vue';
+import JumboHeaderKeynote from './JumboHeaderKeynote.vue';
 
 export default {
     name: 'HeaderKeynote',
@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/styles/style';
+@import '../../assets/styles/style';
 
 header{
     display: flex;
