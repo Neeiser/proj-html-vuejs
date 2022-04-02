@@ -4,7 +4,7 @@
             <img src="../../assets/img/logo.png" alt="">
             <nav>
                 <ul>
-                    <li v-for="navItem in navList" :key="navItem.id">
+                    <li v-for="navItem in arrNavList" :key="navItem.id">
                         <a href="#">
                             {{navItem.category.toUpperCase()}}
                         </a>
@@ -14,20 +14,23 @@
             </nav>
         </header>
         <JumboHeaderKeynote />
+        <HeaderInfoKeynote />
     </div>
 </template>
 
 <script>
 import JumboHeaderKeynote from './JumboHeaderKeynote.vue';
+import HeaderInfoKeynote from './HeaderInfoKeynote.vue';
 
 export default {
     name: 'HeaderKeynote',
     components:{
         JumboHeaderKeynote,
+        HeaderInfoKeynote,
     },
     data(){
         return{
-            navList:[
+            arrNavList:[
                 {category:'home'}, {category:'pages'}, {category:'program'}, {category:'tickets'},
                 {category:'speackers'}, {category:'papers'}, {category:'blog'}, {category:'shortcodes'}    
             ]
