@@ -5,7 +5,9 @@
             <nav>
                 <ul>
                     <li v-for="navItem in navList" :key="navItem.id">
-                        {{navItem.category.toUpperCase()}}
+                        <a href="#">
+                            {{navItem.category.toUpperCase()}}
+                        </a>
                     </li>
                 </ul>
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
@@ -35,6 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/styles/style';
 
 header{
     display: flex;
@@ -42,17 +45,19 @@ header{
     justify-content: space-between;
     height: 100px;
     img{
-            height: 20px;
+        height: 20px;
         }
     nav{
         display: flex;
         align-items: center;
         margin: 0px 10px;
+        color: $gray;
         ul{
             display: flex;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             margin: 0px 5px;
+            font-weight: 700;
             li{
                 padding: 0px 20px;
             }
