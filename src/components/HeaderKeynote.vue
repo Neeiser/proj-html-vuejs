@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <header>
+        <header class="margin-sides">
             <img src="../assets/img/logo.png" alt="">
             <nav>
                 <ul>
@@ -11,13 +11,18 @@
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
             </nav>
         </header>
+        <JumboHeaderKeynote />
     </div>
 </template>
 
 <script>
+import JumboHeaderKeynote from './header-components/JumboHeaderKeynote.vue';
 
 export default {
     name: 'HeaderKeynote',
+    components:{
+        JumboHeaderKeynote,
+    },
     data(){
         return{
             navList:[
@@ -35,7 +40,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    height: 100px;
     img{
             height: 20px;
         }
