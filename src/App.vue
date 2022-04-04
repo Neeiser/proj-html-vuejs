@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import HeaderKeynote from './components/header-components/HeaderKeynote.vue';
+import HeaderKeynote from './components/header/HeaderKeynote.vue';
 
 export default {
   name: 'App',

@@ -20,11 +20,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/styles/style';
+@import '../../../assets/styles/style';
 
 .jumbo-container{
     height: 600px;
-    background-image: url('../../assets/img/slider-1-bg.jpg');
+    background-image: url('../../../assets/img/slider-1-bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

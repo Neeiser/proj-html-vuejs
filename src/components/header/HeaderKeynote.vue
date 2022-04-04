@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import JumboHeaderKeynote from './JumboHeaderKeynote.vue';
-import HeaderInfoKeynote from './HeaderInfoKeynote.vue';
+import JumboHeaderKeynote from './header-components/JumboHeaderKeynote.vue';
+import HeaderInfoKeynote from './header-components/HeaderInfoKeynote.vue';
 
 export default {
     name: 'HeaderKeynote',

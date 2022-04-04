@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/styles/style';
+@import '../../../assets/styles/style';
 
 section{
     height: 300px;
