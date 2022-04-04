@@ -1,5 +1,7 @@
 <template>
-    <div></div>
+    <div class="margin-sides">
+
+    </div>
 </template>
 
 <script>
@@ -10,6 +12,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+@import '../../../assets/styles/style';
 
 </style>
