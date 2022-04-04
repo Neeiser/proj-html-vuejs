@@ -8,9 +8,9 @@
                 <div class="text-vertical-centering">678<span>Minutes</span></div>
                 <div class="text-vertical-centering">901<span>Seconds</span></div>
             </div>
-            <span>subscribe for updates</span>
+            <span class="sub-text">subscribe for updates</span>
             <form>      
-                <input type="email" id="email" name="email" placeholder="Please fill your email:">
+                <input type="email" id="email" name="email" placeholder="Please fill your email">
                 <button class="btn-style" type="submit">subscribe</button>
             </form>
         </div>
@@ -52,15 +52,26 @@ section{
                 }
             }
         }
-        
+        .sub-text{
+            margin: 30px 0px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: $mine-shaft;
+        }
     }
     form{
         input{
             height: 55px;
+            width: 400px;
+            padding: 10px;
+            margin-right: 10px;
         }
         .btn-style{
             color: $white;
             background-color: $scarlet;
+            font-weight: 700;
             border-radius: 0px;
         }
     }
