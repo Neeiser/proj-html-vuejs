@@ -1,6 +1,13 @@
 <template>
     <section>
-        <div class="margin-sides">
+        <div class="margin-sides info-section">
+            <div class="info-box"
+            v-for="infoBox in ArrInfo"
+            :key="infoBox.id">
+                <h4>{{infoBox.infoTitle}}</h4>
+                <p>{{infoBox.infoDesc}}</p>
+                <a href="#">{{infoBox.infoLink}}</a>
+            </div>
         </div>
     </section>
 </template>
@@ -37,5 +44,10 @@ export default {
 section{
     background-color: lightcoral;
     height: 300px;
+    .info-section{
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
 }
 </style>
