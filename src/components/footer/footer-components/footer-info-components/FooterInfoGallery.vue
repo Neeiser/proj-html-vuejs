@@ -37,6 +37,7 @@ export default {
 .gallery{
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
     div{
     width: 60px;
     height: 60px;

@@ -59,9 +59,10 @@ section{
     background-color: $mine-shaft;
     .footer-info{
         display: flex;
+        justify-content: space-between;
         padding: 60px 0;
         div{
-            flex-basis: calc(100% / 4);
+            width: 279px;
         }
         li{
             color: $natural-gray;
@@ -78,6 +79,10 @@ section{
             text-transform: uppercase;
             color: $white;
             letter-spacing: 2px;
+        }
+
+        .footer-info-gallery h5{
+            text-align: end;
         }
         p{
             color: $white;
