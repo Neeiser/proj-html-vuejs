@@ -5,11 +5,8 @@
 
             </div>
             <span>subscribe for updates</span>
-            <form>
-                <div class="email-text">
-                    <label for="email">Please fill your email:</label>
-                    <input type="email" id="email" name="email">
-                </div>
+            <form>      
+                <input type="email" id="email" name="email" placeholder="Please fill your email:">
                 <button class="btn-style" type="submit">subscribe</button>
             </form>
         </div>
@@ -25,11 +22,23 @@ export default {
 
 <style lang="scss" scoped>
 
+@import '../../../assets/styles/style';
+
 section{
     background-image: url('../../../assets/img/coutdown-bg1.jpg');
     background-position: center;
     .timer-section{
         height: 500px;
+    }
+    form{
+        input{
+            height: 55px;
+        }
+        .btn-style{
+            color: $white;
+            background-color: $scarlet;
+            border-radius: 0px;
+        }
     }
 }
 
