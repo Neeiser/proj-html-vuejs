@@ -2,7 +2,11 @@
     <section>
         <div class="timer-section text-vertical-centering">
             <div class="timer-counter">
-
+                <!-- PROVISIONAL -->
+                <div class="text-vertical-centering">012<span>Days</span></div>
+                <div class="text-vertical-centering">345<span>Hours</span></div>
+                <div class="text-vertical-centering">678<span>Minutes</span></div>
+                <div class="text-vertical-centering">901<span>Seconds</span></div>
             </div>
             <span>subscribe for updates</span>
             <form>      
@@ -29,6 +33,26 @@ section{
     background-position: center;
     .timer-section{
         height: 500px;
+        .timer-counter {
+            display: flex;
+            div{
+            background-color: $mine-shaft-alpha;
+            height: 150px;
+            width: 150px;
+            border-radius: 5px;
+            margin: 0px 10px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: $white;
+                span{
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                }
+            }
+        }
+        
     }
     form{
         input{
