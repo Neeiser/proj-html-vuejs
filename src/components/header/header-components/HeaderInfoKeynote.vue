@@ -47,7 +47,6 @@ export default {
 @import '../../../assets/styles/style';
 
 section{
-    height: 300px;
     .info-section{
         height: 300px;
         display: flex;
