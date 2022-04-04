@@ -32,4 +32,12 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/styles/style';
 
+a{
+    margin-right: 10px;
+    img{
+        width: 20px;
+    }
+}
+
+
 </style>
