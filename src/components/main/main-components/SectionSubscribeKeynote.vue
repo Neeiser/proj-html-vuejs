@@ -3,10 +3,10 @@
         <div class="timer-section text-vertical-centering">
             <div class="timer-counter">
                 <!-- PROVISIONAL -->
-                <div class="text-vertical-centering">012<span>Days</span></div>
-                <div class="text-vertical-centering">345<span>Hours</span></div>
-                <div class="text-vertical-centering">678<span>Minutes</span></div>
-                <div class="text-vertical-centering">901<span>Seconds</span></div>
+                <div class="text-vertical-centering">112<span>Days</span></div>
+                <div class="text-vertical-centering">12<span>Hours</span></div>
+                <div class="text-vertical-centering">58<span>Minutes</span></div>
+                <div class="text-vertical-centering">55<span>Seconds</span></div>
             </div>
             <span class="sub-text">subscribe for updates</span>
             <form>      
