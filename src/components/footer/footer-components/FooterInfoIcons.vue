@@ -3,7 +3,7 @@
         <a href="#" 
         v-for="item in iconsArr" 
         :key="item.id">
-
+            <img :src="item.icon"/>
         </a>
     </div>
 </template>
