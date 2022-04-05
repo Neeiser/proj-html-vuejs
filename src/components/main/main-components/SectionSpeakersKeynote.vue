@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="margin-sides">
     </section>
 </template>
 
