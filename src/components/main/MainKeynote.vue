@@ -4,6 +4,7 @@
         <SectionSpeakersKeynote />
         <SectionProgramKeynote />
         <SectionMapKeynote />
+        <SectionLocationKeynote />
     </main>
 </template>
 
@@ -13,6 +14,7 @@ import SectionSubscribeKeynote from './main-components/SectionSubscribeKeynote.v
 import SectionSpeakersKeynote from './main-components/SectionSpeakersKeynote.vue';
 import SectionProgramKeynote  from './main-components/SectionProgramKeynote.vue';
 import SectionMapKeynote  from './main-components/SectionMapKeynote.vue';
+import SectionLocationKeynote  from './main-components/SectionLocationKeynote.vue';
 
 
 export default {
@@ -22,6 +24,7 @@ export default {
         SectionSpeakersKeynote,
         SectionProgramKeynote,
         SectionMapKeynote,
+        SectionLocationKeynote,
     }
 
 }
