@@ -1,11 +1,13 @@
 <template>
     <section class="margin-sides">
         <div class="program-title">
-            <h3>PROGRAM</h3>
-            <p>This conference run through all 4 days from 23 - 26 May 2016.
-                <br>
-                We also provide free lunch and coffee break in each day.
-            </p>
+            <div>
+                <h3>PROGRAM</h3>
+                <p>This conference run through all 4 days from 23 - 26 May 2016.
+                    <br>
+                    We also provide free lunch and coffee break in each day.
+                </p>
+            </div>
             <a href="#">View Full Program</a>
         </div>
         <div class="program-dates">
@@ -56,10 +58,24 @@ export default {
 @import '../../../assets/styles/style';
 
 section{
+    padding: 100px 0px;
     .program-title{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 50px 0;
+        div{
+            display: flex;
+            h3{
+            font-size: 2rem;
+            color: $mine-shaft;
+            }
+            p{
+                margin-left: 50px;
+                color: $masala;
+            }
+        }
+        
         a{
             color: $scarlet;
             font-style: italic;
@@ -71,6 +87,14 @@ section{
         align-items: center;
         background-color: $scarlet;
         color: $white;
+        padding: 20px;
+        div{
+            width: 170px;
+            h4{
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+        }
     }
     .program-content{
         display: flex;
@@ -83,18 +107,25 @@ section{
             span{
                 position: relative;
                 margin: 10px 0;
+                color: $chicago;
+                a{
+                    color: $scarlet;
+                }
                 svg{
                     position: absolute;
                     left: -30px;
                     top: 5px;
+                    color: $chicago;
                 }
             }
         }
         .program-desc{
             padding: 50px;
+            color: $masala;
             h3{
                 margin: 10px 0;
                 text-transform: uppercase;
+                letter-spacing: 8px;
             }
             p{
                 margin: 30px 0;
