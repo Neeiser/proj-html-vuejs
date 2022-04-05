@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="text-vertical-centering ticket-container">
+        <div class="margin-sides text-vertical-centering ticket-container">
             <h2>TICKETS</h2>
             <div class="ticket-box">
                 <div class="ticket-item"
@@ -77,6 +77,8 @@ section{
         }
         .ticket-box{
             display: flex;
+            justify-content: space-between;
+            width: 100%;
             .ticket-item{
                 display: flex;
                 flex-direction: column;
@@ -84,10 +86,14 @@ section{
                 justify-content: space-between;
                 background-color: $white;
                 padding: 20px;
-                height: 350px;
+                height: 400px;
                 width: 300px;
                 position: relative;
                 margin: 0px 15px;
+                small{
+                    color: $chicago;
+                    font-style: italic;
+                }
                 .header-ticket{
                     display: flex;
                     flex-direction: column;
