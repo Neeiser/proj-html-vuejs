@@ -7,6 +7,8 @@
         <SectionLocationKeynote />
         <SectionRecentNewsKeynote />
         <SectionTicketsKeynote />
+        <!-- 1 section left -->
+        <SectionSponsorKeynote />
     </main>
 </template>
 
@@ -19,6 +21,8 @@ import SectionMapKeynote  from './main-components/SectionMapKeynote.vue';
 import SectionLocationKeynote  from './main-components/SectionLocationKeynote.vue';
 import SectionRecentNewsKeynote  from './main-components/SectionRecentNewsKeynote.vue';
 import SectionTicketsKeynote  from './main-components/SectionTicketsKeynote.vue';
+/* 1 section left */
+import SectionSponsorKeynote  from './main-components/SectionSponsorKeynote.vue';
 
 
 export default {
@@ -30,7 +34,9 @@ export default {
         SectionMapKeynote,
         SectionLocationKeynote,
         SectionRecentNewsKeynote,
-        SectionTicketsKeynote
+        SectionTicketsKeynote,
+        /* 1 section left */
+        SectionSponsorKeynote
     }
 
 }
