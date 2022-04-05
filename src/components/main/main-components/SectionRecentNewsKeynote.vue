@@ -57,18 +57,55 @@ export default {
 @import '../../../assets/styles/style';
 
 .news-container{
-    height: 600px;
+    padding: 80px 0;
+
+    .news-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        h2{
+            text-transform: uppercase;
+        }
+    }
     .news-box{
         display: flex;
         div{
             display: flex;
             flex-direction: column;
-            align-items: baseline;
+            flex-basis: calc(100% / 3);
+            padding: 0px 10px;
             img{
-            height: 200px;
+                width: 100%;
+            }
+            small{
+                color: $chicago;
+                padding: 10px 0;
+            }
+            h4{
+                font-size: 1.2rem;
+                padding: 10px 0;
+            }
+            p{
+                color: $chicago;
+                font-size: 0.9rem;
+                line-height: 25px;
+                padding: 10px 0;
             }
         }
+    }
+    a{
+        font-style: italic;
+        font-size: 0.9rem;
+        color: $scarlet;
+        padding: 10px 0;
     }
 }
 
 </style>
+
+                    /* <img :src="newsBox.newsImg" alt="">
+                    <small>{{ newsBox.newsComments }}</small>
+                    <h4>{{newsBox.newsTitle.toUpperCase()}}</h4>
+                    <p>{{newsBox.newsDesc}}</p>
+                    <a href="#">{{newsBox.newsLink}}</a> */
